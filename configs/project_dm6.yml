@@ -1,0 +1,412 @@
+input:
+    raw_reads_paths:
+
+        3-4h_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_1_run4_2.fastq.gz
+
+        3-4h_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_2_run4_2.fastq.gz
+
+        3-4h_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/3-4h_repl_3_run4_2.fastq.gz
+
+        mitotic-nuclear-cycle-1-14_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_1_run3_2.fastq.gz
+
+        mitotic-nuclear-cycle-1-14_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/mitotic_nuclear_cycle_1-14_repl_2_run4_2.fastq.gz
+
+        nuclear-cycle-12_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_1_run4_2.fastq.gz
+
+        nuclear-cycle-12_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_2_run4_2.fastq.gz
+
+        nuclear-cycle-12_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_3_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_3_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_3_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_3_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_12_repl_3_run3_2.fastq.gz
+
+        nuclear-cycle-13_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_1_run4_2.fastq.gz
+
+        nuclear-cycle-13_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_2_run3_2.fastq.gz
+
+        nuclear-cycle-13_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_3_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_3_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_3_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_3_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_13_repl_3_run3_2.fastq.gz
+
+        nuclear-cycle-14_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_1_run4_2.fastq.gz
+
+        nuclear-cycle-14_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_2_run4_2.fastq.gz
+
+        nuclear-cycle-14_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_3_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_3_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_3_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_3_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_repl_3_run3_2.fastq.gz
+
+        nuclear-cycle-14-alpha-amanitin-injected_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_1_run4_2.fastq.gz
+
+        nuclear-cycle-14-alpha-amanitin-injected_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_2_run4_2.fastq.gz
+
+        nuclear-cycle-14-alpha-amanitin-injected_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_3_run4_2.fastq.gz
+
+        nuclear-cycle-14-alpha-amanitin-injected_4:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_alpha-amanitin_injected_repl_4_run4_2.fastq.gz
+
+        nuclear-cycle-14-sh-zld_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_1_run1_2.fastq.gz
+
+        nuclear-cycle-14-sh-zld_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_2_run1_2.fastq.gz
+
+        nuclear-cycle-14-sh-zld_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_3_run1_2.fastq.gz
+
+        nuclear-cycle-14-sh-zld_4:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_4_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_sh_zld_repl_4_run1_2.fastq.gz
+
+        nuclear-cycle-14-triptolide-injected_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_1_run2_2.fastq.gz
+
+        nuclear-cycle-14-triptolide-injected_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_2_run2_2.fastq.gz
+
+        nuclear-cycle-14-triptolide-injected_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_3_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_3_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_3_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_triptolide_injected_repl_3_run2_2.fastq.gz
+
+        nuclear-cycle-14-water-injected_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_1_run4_2.fastq.gz
+
+        nuclear-cycle-14-water-injected_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run1_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run1_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run2_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run2_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run3_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run3_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run4_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DM3/FASTQ/nuclear_cycle_14_water_injected_repl_2_run4_2.fastq.gz
+    library_groups:
+
+        3-4h:
+            - 3-4h_1
+            - 3-4h_2
+            - 3-4h_3
+
+        mitotic-nuclear-cycle-1-14:
+            - mitotic-nuclear-cycle-1-14_1
+            - mitotic-nuclear-cycle-1-14_2
+
+        nuclear-cycle-12:
+            - nuclear-cycle-12_1
+            - nuclear-cycle-12_2
+            - nuclear-cycle-12_3
+
+        nuclear-cycle-13:
+            - nuclear-cycle-13_1
+            - nuclear-cycle-13_2
+            - nuclear-cycle-13_3
+
+        nuclear-cycle-14:
+            - nuclear-cycle-14_1
+            - nuclear-cycle-14_2
+            - nuclear-cycle-14_3
+
+        nuclear-cycle-14-alpha-amanitin-injected:
+            - nuclear-cycle-14-alpha-amanitin-injected_1
+            - nuclear-cycle-14-alpha-amanitin-injected_2
+            - nuclear-cycle-14-alpha-amanitin-injected_3
+            - nuclear-cycle-14-alpha-amanitin-injected_4
+
+        nuclear-cycle-14-sh-zld:
+            - nuclear-cycle-14-sh-zld_1
+            - nuclear-cycle-14-sh-zld_2
+            - nuclear-cycle-14-sh-zld_3
+            - nuclear-cycle-14-sh-zld_4
+
+        nuclear-cycle-14-triptolide-injected:
+            - nuclear-cycle-14-triptolide-injected_1
+            - nuclear-cycle-14-triptolide-injected_2
+            - nuclear-cycle-14-triptolide-injected_3
+
+        nuclear-cycle-14-water-injected:
+            - nuclear-cycle-14-water-injected_1
+            - nuclear-cycle-14-water-injected_2
+
+    genome:
+        assembly_name: 'dm6'
+        bwa_index_wildcard_path: '../data/genomes/dm6/dm6.fa.gz*'
+        chrom_sizes_path:   '../data/genomes/dm6/dm6.reduced.chrom.sizes'
+
+do_fastqc: False
+map:
+    chunksize: 0
+    mapping_options: '-c 1'
+
+parse:
+    make_pairsam: False
+    drop_seq: True
+    drop_readid: False
+    keep_unparsed_bams: False
+    parsing_options: '--add-columns mapq --walk-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    balance: true
+
+    filters:
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+########################################
+# folder structure for storing results
+########################################
+output:
+    dirs:
+        processed_fastqs: 'results_dm6/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_dm6/mapped_parsed_sorted_chunks'
+        fastqc: 'results_dm6/fastqc/'
+        pairs_library: 'results_dm6/pairs_library'
+        coolers_library: 'results_dm6/coolers_library/'
+        coolers_library_group: 'results_dm6/coolers_library_group/'
+        stats_library_group: 'results_dm6/stats_library_group/'
+

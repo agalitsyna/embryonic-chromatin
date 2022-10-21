@@ -1,0 +1,258 @@
+input:
+    raw_reads_paths:
+        stage10-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085872
+        stage10-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085871
+        stage10-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085870
+        stage10-Hi-C-rep4:
+            lane1:
+                - sra:SRR11085869
+        stage10RPB1MO-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085819
+        stage11-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085868
+        stage11-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085867
+        stage11-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085866
+        stage11-Hi-C-rep4:
+            lane1:
+                - sra:SRR11085865
+        stage12-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085864
+        stage12-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085863
+        stage12-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085861
+        stage12-Hi-C-rep4:
+            lane1:
+                - sra:SRR11085860
+        stage13-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085859
+        stage13-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085858
+        stage13-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085857
+        stage13-Hi-C-rep4:
+            lane1:
+                - sra:SRR11085856
+        stage13CTCFRad21MO-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085828
+        stage13CTCFRad21MO-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085827
+        stage13Rad21MO-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085833
+        stage13Rad21MO-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085832
+        stage13Rad21MO-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085831
+        stage13Rad21MO-Hi-C-rep4:
+            lane1:
+                - sra:SRR11085830
+        stage15-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085855
+        stage15-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085854
+        stage15-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085853
+        stage8-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085874
+        stage8-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085873
+        stage8-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085862
+        stage8-Hi-C-rep6:
+            lane1:
+                - sra:SRR11085829
+        stage9-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085818
+        stage9CTCFMO-Hi-C:
+            lane1:
+                - sra:SRR11085826
+        stage9CTCFRad21MO-Hi-C:
+            lane1:
+                - sra:SRR11085824
+        stage9RPB1MO-Hi-C-rep1:
+            lane1:
+                - sra:SRR11085823
+        stage9RPB1MO-Hi-C-rep2:
+            lane1:
+                - sra:SRR11085822
+        stage9RPB1MO-Hi-C-rep3:
+            lane1:
+                - sra:SRR11085821
+        stage9RPB1MO-Hi-C-rep4:
+            lane1:
+                - sra:SRR11085820
+        stage9Rad21MO-Hi-C:
+            lane1:
+                - sra:SRR11085825
+    library_groups:
+        stage10:
+            - stage10-Hi-C-rep1
+            - stage10-Hi-C-rep2
+            - stage10-Hi-C-rep3
+            - stage10-Hi-C-rep4
+        stage10RPB1MO:
+            - stage10RPB1MO-Hi-C-rep1
+        stage11:
+            - stage11-Hi-C-rep1
+            - stage11-Hi-C-rep2
+            - stage11-Hi-C-rep3
+            - stage11-Hi-C-rep4
+        stage12:
+            - stage12-Hi-C-rep1
+            - stage12-Hi-C-rep2
+            - stage12-Hi-C-rep3
+            - stage12-Hi-C-rep4
+        stage13:
+            - stage13-Hi-C-rep1
+            - stage13-Hi-C-rep2
+            - stage13-Hi-C-rep3
+            - stage13-Hi-C-rep4
+        stage13CTCFRad21MO:
+            - stage13CTCFRad21MO-Hi-C-rep1
+            - stage13CTCFRad21MO-Hi-C-rep2
+        stage13Rad21MO:
+            - stage13Rad21MO-Hi-C-rep1
+            - stage13Rad21MO-Hi-C-rep2
+            - stage13Rad21MO-Hi-C-rep3
+            - stage13Rad21MO-Hi-C-rep4
+        stage15:
+            - stage15-Hi-C-rep1
+            - stage15-Hi-C-rep2
+            - stage15-Hi-C-rep3
+        stage8:
+            - stage8-Hi-C-rep1
+            - stage8-Hi-C-rep2
+            - stage8-Hi-C-rep3
+            - stage8-Hi-C-rep6
+        stage9:
+            - stage9-Hi-C-rep1
+        stage9RPB1MO:
+            - stage9RPB1MO-Hi-C-rep1
+            - stage9RPB1MO-Hi-C-rep2
+            - stage9RPB1MO-Hi-C-rep3
+            - stage9RPB1MO-Hi-C-rep4
+        all:
+            - stage10-Hi-C-rep1
+            - stage10-Hi-C-rep2
+            - stage10-Hi-C-rep3
+            - stage10-Hi-C-rep4
+            - stage10RPB1MO-Hi-C-rep1
+            - stage11-Hi-C-rep1
+            - stage11-Hi-C-rep2
+            - stage11-Hi-C-rep3
+            - stage11-Hi-C-rep4
+            - stage12-Hi-C-rep1
+            - stage12-Hi-C-rep2
+            - stage12-Hi-C-rep3
+            - stage12-Hi-C-rep4
+            - stage13-Hi-C-rep1
+            - stage13-Hi-C-rep2
+            - stage13-Hi-C-rep3
+            - stage13-Hi-C-rep4
+            - stage13CTCFRad21MO-Hi-C-rep1
+            - stage13CTCFRad21MO-Hi-C-rep2
+            - stage13Rad21MO-Hi-C-rep1
+            - stage13Rad21MO-Hi-C-rep2
+            - stage13Rad21MO-Hi-C-rep3
+            - stage13Rad21MO-Hi-C-rep4
+            - stage15-Hi-C-rep1
+            - stage15-Hi-C-rep2
+            - stage15-Hi-C-rep3
+            - stage8-Hi-C-rep1
+            - stage8-Hi-C-rep2
+            - stage8-Hi-C-rep3
+            - stage8-Hi-C-rep6
+            - stage9-Hi-C-rep1
+            - stage9RPB1MO-Hi-C-rep1
+            - stage9RPB1MO-Hi-C-rep2
+            - stage9RPB1MO-Hi-C-rep3
+            - stage9RPB1MO-Hi-C-rep4
+
+    truncate_fastq_reads: 0
+
+    genome:
+        assembly_name: 'xenTro10'
+        bwa_index_wildcard_path: '../data/genomes/xenTro10/xenTro10.fa.*'
+        chrom_sizes_path:   '../data/genomes/xenTro10/xenTro10.fa.sizes'
+
+do_fastqc: False
+
+map:
+    chunksize: 0
+    mapping_options: ''
+    trim_options: ''
+    use_custom_split: true
+
+parse:
+    make_pairsam: False
+    drop_seq: False
+    drop_readid: True
+    keep_unparsed_bams: False
+
+    parsing_options: '--add-columns mapq --walks-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 20000
+        - 15000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    balance: true
+
+    filters:
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+output:
+    dirs:
+        processed_fastqs: 'results_xenTro10/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_xenTro10/mapped_parsed_sorted_chunks'
+        fastqc: 'results_xenTro10/fastqc/'
+        pairs_library: 'results_xenTro10/pairs_library'
+        coolers_library: 'results_xenTro10/coolers_library/'
+        coolers_library_group: 'results_xenTro10/coolers_library_group/'
+        stats_library_group: 'results_xenTro10/stats_library_group/'

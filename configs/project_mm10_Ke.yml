@@ -1,0 +1,379 @@
+input:
+    raw_reads_paths:
+
+        2-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015501.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015502.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015503.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015504.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015505.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015509.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015508.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015510.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015516.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015506.gz
+            lane6:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015507.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015511.gz
+            lane7:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015512.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015513.gz
+            lane8:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015514.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006289/CRX006633/CRR007111/CRD015515.gz
+
+        2-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006288/CRX006632/CRR007110/CRD015496.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006288/CRX006632/CRR007110/CRD015497.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006288/CRX006632/CRR007110/CRD015499.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006288/CRX006632/CRR007110/CRD015500.gz
+
+
+        2-cell_alpha-amanitin_treated_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007582/CRX007921/CRR008690/CRD018318.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007582/CRX007921/CRR008690/CRD018319.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007582/CRX007921/CRR008690/CRD018320.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007582/CRX007921/CRR008690/CRD018321.gz
+
+        2-cell_alpha-amanitin_treated_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013109/CRX017979/CRR008691/CRD018322.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013109/CRX017979/CRR008691/CRD018323.gz
+
+        2-cell_aphidicolin_treated_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013115/CRX017986/CRR019655/CRD039029.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013115/CRX017986/CRR019655/CRD039030.gz
+
+        2-cell_aphidicolin_treated_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013102/CRX017965/CRR019654/CRD039095.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013102/CRX017965/CRR019654/CRD039096.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013102/CRX017965/CRR019654/CRD039098.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013102/CRX017965/CRR019654/CRD039099.gz
+
+        4-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007580/CRX007919/CRR008685/CRD018304.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007580/CRX007919/CRR008685/CRD018305.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007580/CRX007919/CRR008685/CRD018308.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007580/CRX007919/CRR008685/CRD018309.gz
+
+        4-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013116/CRX017987/CRR008688/CRD018310.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013116/CRX017987/CRR008688/CRD018311.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013116/CRX017987/CRR008688/CRD018312.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013116/CRX017987/CRR008688/CRD018313.gz
+
+        4-cell_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013114/CRX017981/CRR008689/CRD018315.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013114/CRX017981/CRR008689/CRD018314.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013114/CRX017981/CRR008689/CRD018317.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013114/CRX017981/CRR008689/CRD018316.gz
+
+        8-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015466.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015467.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015468.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015469.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015470.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015471.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015472.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015473.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015475.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015728.gz
+            lane6:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015476.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015477.gz
+            lane7:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015478.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015474.gz
+            lane8:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015479.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015480.gz
+            lane9:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015716.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006290/CRX006630/CRR007108/CRD015483.gz
+
+        8-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006291/CRX006631/CRR007109/CRD015484.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006291/CRX006631/CRR007109/CRD015485.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006291/CRX006631/CRR007109/CRD015486.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006291/CRX006631/CRR007109/CRD015487.gz
+
+        8-cell_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007581/CRX007920/CRR008686/CRD018300.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007581/CRX007920/CRR008686/CRD018301.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007581/CRX007920/CRR008686/CRD018302.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007581/CRX007920/CRR008686/CRD018303.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007581/CRX007920/CRR008686/CRD018306.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007581/CRX007920/CRR008686/CRD018307.gz
+
+        E3.5_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006293/CRX006635/CRR007112/CRD015517.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006293/CRX006635/CRR007112/CRD015518.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006293/CRX006635/CRR007112/CRD015543.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006293/CRX006635/CRR007112/CRD015544.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006293/CRX006635/CRR007112/CRD018324.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006293/CRX006635/CRR007112/CRD018326.gz
+
+        E3.5_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015520.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015521.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015522.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015523.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015524.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015525.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015526.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015527.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015528.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015555.gz
+            lane6:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015551.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006292/CRX006634/CRR007134/CRD015529.gz
+
+        E3.5_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD015530.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD015533.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD015546.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD015550.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD018327.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD018331.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD018328.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006296/CRX006636/CRR007113/CRD018332.gz
+
+        E7.5_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006294/CRX006639/CRR008698/CRD018325.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006294/CRX006639/CRR008698/CRD018335.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006294/CRX006639/CRR008698/CRD018339.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006294/CRX006639/CRR008698/CRD018340.gz
+
+        E7.5_4:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007586/CRX007925/CRR008701/CRD018512.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007586/CRX007925/CRR008701/CRD018513.gz
+
+        E7.5_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006295/CRX006640/CRR008699/CRD018516.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006295/CRX006640/CRR008699/CRD018517.gz
+
+        E7.5_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007585/CRX007924/CRR008700/CRD018518.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007585/CRX007924/CRR008700/CRD018519.gz
+
+        MII_oocyte_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006284/CRX006627/CRR007104/CRD015404.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006284/CRX006627/CRR007104/CRD015405.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006284/CRX006627/CRR007104/CRD015462.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006284/CRX006627/CRR007104/CRD015463.gz
+
+        MII_oocyte_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006285/CRX006629/CRR007107/CRD015464.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006285/CRX006629/CRR007107/CRD015465.gz
+
+        mouse_morula_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041724_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041724_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041725_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041725_2.fastq.gz
+
+        mouse_morula_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041726_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041726_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041727_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041727_2.fastq.gz
+
+        mouse_single_E3.5_ultra-low-input_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041691_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041691_2.fastq.gz
+
+        sperm_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015534.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015535.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015536.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015537.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015538.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015539.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015540.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006286/CRX006637/CRR007114/CRD015582.gz
+
+        sperm_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006287/CRX006638/CRR007115/CRD015541.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006287/CRX006638/CRR007115/CRD015542.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006287/CRX006638/CRR007115/CRD015553.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006287/CRX006638/CRR007115/CRD015561.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006287/CRX006638/CRR007115/CRD015562.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC006287/CRX006638/CRR007115/CRD015552.gz
+
+        zygote_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013108/CRX017978/CRR008696/CRD018333.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013108/CRX017978/CRR008696/CRD018341.gz
+
+        zygote_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007584/CRX007923/CRR008695/CRD018336.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007584/CRX007923/CRR008695/CRD018337.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007584/CRX007923/CRR008695/CRD018338.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC007584/CRX007923/CRR008695/CRD018342.gz
+    library_groups:
+
+        2-cell:
+            - 2-cell_1
+            - 2-cell_2
+
+        2-cell_alpha-amanitin_treated_Hi-C:
+            - 2-cell_alpha-amanitin_treated_Hi-C_1
+            - 2-cell_alpha-amanitin_treated_Hi-C_2
+
+        2-cell_aphidicolin_treated_Hi-C:
+            - 2-cell_aphidicolin_treated_Hi-C_1
+            - 2-cell_aphidicolin_treated_Hi-C_2
+
+        4-cell:
+            - 4-cell_1
+            - 4-cell_2
+            - 4-cell_3
+
+        8-cell:
+            - 8-cell_1
+            - 8-cell_2
+            - 8-cell_3
+
+        E3.5:
+            - E3.5_1
+            - E3.5_2
+            - E3.5_3
+
+        E7.5:
+            - E7.5_1
+            - E7.5_2
+            - E7.5_3
+            - E7.5_4
+
+        MII_oocyte:
+            - MII_oocyte_1
+            - MII_oocyte_2
+
+        mouse_morula_Hi-C:
+            - mouse_morula_Hi-C_1
+            - mouse_morula_Hi-C_2
+
+        mouse_single_E3.5_ultra-low-input_Hi-C:
+            - mouse_single_E3.5_ultra-low-input_Hi-C_1
+
+        sperm:
+            - sperm_1
+            - sperm_2
+
+        zygote:
+            - zygote_1
+            - zygote_2
+
+    genome:
+        assembly_name: 'mm10'
+        bwa_index_wildcard_path: '../data/genomes/mm10/mm10.fa.gz*'
+        chrom_sizes_path:   '../data/genomes/mm10/mm10.reduced.chrom.sizes'
+
+do_fastqc: False
+
+map:
+    mapping_options: '-c 1'
+
+parse:
+    make_pairsam: False
+    drop_seq: True
+    drop_readid: False
+    keep_unparsed_bams: False
+    parsing_options: '--add-columns mapq --walk-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    balance: true
+
+    filters: 
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+output:
+    dirs:
+        processed_fastqs: 'results_mm10/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_mm10/mapped_parsed_sorted_chunks'
+        fastqc: 'results_mm10/fastqc/'
+        pairs_library: 'results_mm10/pairs_library'
+        coolers_library: 'results_mm10/coolers_library/'
+        coolers_library_group: 'results_mm10/coolers_library_group/'
+        stats_library_group: 'results_mm10/stats_library_group/'

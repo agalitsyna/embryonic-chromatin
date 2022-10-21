@@ -1,0 +1,218 @@
+input:
+    raw_reads_paths:
+        HiC_fibro_rep1:
+            lane1:
+                - sra:DRR152702
+        HiC_fibro_rep2:
+            lane1:
+                - sra:DRR152703
+        HiC_st10.5_rep1:
+            lane1:
+                - sra:DRR152680
+        HiC_st10.5_rep2:
+            lane1:
+                - sra:DRR152681
+        HiC_st10_rep1:
+            lane1:
+                - sra:DRR152678
+        HiC_st10_rep2:
+            lane1:
+                - sra:DRR152679
+        HiC_st11.5_rep1:
+            lane1:
+                - sra:DRR152684
+        HiC_st11.5_rep2:
+            lane1:
+                - sra:DRR152685
+        HiC_st11_rep1:
+            lane1:
+                - sra:DRR152682
+        HiC_st11_rep2:
+            lane1:
+                - sra:DRR152683
+        HiC_st12_amanitin_rep1:
+            lane1:
+                - sra:DRR152700
+        HiC_st12_amanitin_rep2:
+            lane1:
+                - sra:DRR152701
+        HiC_st12_rep1:
+            lane1:
+                - sra:DRR152686
+        HiC_st12_rep2:
+            lane1:
+                - sra:DRR152687
+        HiC_st13_rep1:
+            lane1:
+                - sra:DRR152688
+        HiC_st13_rep2:
+            lane1:
+                - sra:DRR152689
+        HiC_st14_rep1:
+            lane1:
+                - sra:DRR152690
+        HiC_st14_rep2:
+            lane1:
+                - sra:DRR152691
+        HiC_st15_rep1:
+            lane1:
+                - sra:DRR152692
+        HiC_st15_rep2:
+            lane1:
+                - sra:DRR152693
+        HiC_st18_rep1:
+            lane1:
+                - sra:DRR152694
+        HiC_st18_rep2:
+            lane1:
+                - sra:DRR152695
+        HiC_st21_rep1:
+            lane1:
+                - sra:DRR152696
+        HiC_st21_rep2:
+            lane1:
+                - sra:DRR152697
+        HiC_st27_rep1:
+            lane1:
+                - sra:DRR152698
+        HiC_st27_rep2:
+            lane1:
+                - sra:DRR152699
+        HiC_st9_rep1:
+            lane1:
+                - sra:DRR152676
+        HiC_st9_rep2:
+            lane1:
+                - sra:DRR152677
+    library_groups:
+        HiC_fibro:
+            - HiC_fibro_rep1
+            - HiC_fibro_rep2
+        HiC_st10:
+            - HiC_st10_rep1
+            - HiC_st10_rep2
+        HiC_st10.5:
+            - HiC_st10.5_rep1
+            - HiC_st10.5_rep2
+        HiC_st11:
+            - HiC_st11_rep1
+            - HiC_st11_rep2
+        HiC_st11.5:
+            - HiC_st11.5_rep1
+            - HiC_st11.5_rep2
+        HiC_st12:
+            - HiC_st12_rep1
+            - HiC_st12_rep2
+        HiC_st12_amanitin:
+            - HiC_st12_amanitin_rep1
+            - HiC_st12_amanitin_rep2
+        HiC_st13:
+            - HiC_st13_rep1
+            - HiC_st13_rep2
+        HiC_st14:
+            - HiC_st14_rep1
+            - HiC_st14_rep2
+        HiC_st15:
+            - HiC_st15_rep1
+            - HiC_st15_rep2
+        HiC_st18:
+            - HiC_st18_rep1
+            - HiC_st18_rep2
+        HiC_st21:
+            - HiC_st21_rep1
+            - HiC_st21_rep2
+        HiC_st27:
+            - HiC_st27_rep1
+            - HiC_st27_rep2
+        HiC_st9:
+            - HiC_st9_rep1
+            - HiC_st9_rep2
+        all:
+            - HiC_fibro_rep1
+            - HiC_fibro_rep2
+            - HiC_st10_rep1
+            - HiC_st10_rep2
+            - HiC_st10.5_rep1
+            - HiC_st10.5_rep2
+            - HiC_st11_rep1
+            - HiC_st11_rep2
+            - HiC_st11.5_rep1
+            - HiC_st11.5_rep2
+            - HiC_st12_rep1
+            - HiC_st12_rep2
+            - HiC_st12_amanitin_rep1
+            - HiC_st12_amanitin_rep2
+            - HiC_st13_rep1
+            - HiC_st13_rep2
+            - HiC_st14_rep1
+            - HiC_st14_rep2
+            - HiC_st15_rep1
+            - HiC_st15_rep2
+            - HiC_st18_rep1
+            - HiC_st18_rep2
+            - HiC_st21_rep1
+            - HiC_st21_rep2
+            - HiC_st27_rep1
+            - HiC_st27_rep2
+            - HiC_st9_rep1
+            - HiC_st9_rep2
+
+
+    truncate_fastq_reads: 0
+
+    genome:
+        assembly_name: 'oryLat2'
+        bwa_index_wildcard_path: '../data/genomes/oryLat2/oryLat2.fa.*'
+        chrom_sizes_path:   '../data/genomes/oryLat2/oryLat2.fa.sizes'
+
+do_fastqc: False
+
+map:
+    chunksize: 0
+    mapping_options: ''
+    trim_options: ''
+    use_custom_split: true
+
+parse:
+    make_pairsam: False
+    drop_seq: False
+    drop_readid: True
+    keep_unparsed_bams: False
+
+    parsing_options: '--add-columns mapq --walks-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 20000
+        - 15000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    balance: true
+
+    filters:
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+output:
+    dirs:
+        processed_fastqs: 'results_oryLat2/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_oryLat2/mapped_parsed_sorted_chunks'
+        fastqc: 'results_oryLat2/fastqc/'
+        pairs_library: 'results_oryLat2/pairs_library'
+        coolers_library: 'results_oryLat2/coolers_library/'
+        coolers_library_group: 'results_oryLat2/coolers_library_group/'
+        stats_library_group: 'results_oryLat2/stats_library_group/'

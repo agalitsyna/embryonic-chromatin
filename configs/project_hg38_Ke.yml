@@ -1,0 +1,352 @@
+input:
+    raw_reads_paths:
+
+        HeLa_and_HT22_mixed_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041687_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041687_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041688_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041688_2.fastq.gz
+
+        human_2-cell_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028571_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028571_2.fastq.gz
+
+        human_2-cell_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028572_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028572_2.fastq.gz
+
+        human_2-cell_mixed_sample_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058137_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058137_2.fastq.gz
+
+        human_6-week_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028586_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028586_2.fastq.gz
+
+        human_6-week_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028588_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028588_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028587_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028587_r2.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028589_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028589_2.fastq.gz
+
+        human_8-cell_amanitin_plus_CTCF_mRNA_mixed_sample_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058143_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058143_2.fastq.gz
+
+        human_8-cell_amanitin_plus_CTCF_mRNA_mixed_sample_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058144_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058144_2.fastq.gz
+
+        human_8-cell_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028573_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028573_2.fastq.gz
+
+        human_8-cell_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028575_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028575_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028574_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028574_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028576_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028576_r2.fq.gz
+
+        human_8-cell_mixed_sample_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058138_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058138_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058139_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058139_2.fastq.gz
+
+        human_alpha_amanitin_8-cell_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041689_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041689_2.fastq.gz
+
+        human_alpha_amanitin_8-cell_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041690_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041690_2.fastq.gz
+
+        human_amanitin-treated_8-cell_mixed_sample_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058142_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058142_2.fastq.gz
+
+        human_blastocyst_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028581_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028581_r2.fq.gz
+
+        human_blastocyst_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028583_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028583_r2.fq.gz
+
+        human_blastocyst_Hi-C_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028584_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028584_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028582_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028582_r2.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028585_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028585_2.fastq.gz
+
+        human_morula_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028577_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028577_2.fastq.gz
+
+        human_morula_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028579_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028579_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028578_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028578_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028580_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028580_2.fastq.gz
+
+        human_morula_mixed_sample_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058140_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058140_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058141_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058141_2.fastq.gz
+
+        human_siCTCF_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028594_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028594_2.fastq.gz
+
+        human_siCTCF_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028596_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028596_r2.fq.gz
+
+        human_siCTCF_Hi-C_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058145_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058145_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028595_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028595_r2.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028597_f1.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR028597_r2.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058146_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058146_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058147_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR058147_2.fastq.gz
+
+        human_single_blastocyst_ultra-low-input_Hi-C_replictae1_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041721_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041721_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041722_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041722_2.fastq.gz
+
+        human_single_blastocyst_ultra-low-input_Hi-C_replictae2_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041723_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041723_2.fastq.gz
+
+        human_sperm_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017966/CRR019673/CRD039110.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017966/CRR019673/CRD039111.gz
+
+        human_sperm_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017967/CRR019674/CRD039116.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017967/CRR019674/CRD039117.gz
+
+        human_sperm_Hi-C_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017968/CRR019675/CRD039118.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017968/CRR019675/CRD039119.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017966/CRR019673/CRD039112.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017966/CRR019673/CRD039113.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017967/CRR019674/CRD039120.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017967/CRR019674/CRD039121.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017968/CRR019675/CRD039124.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017968/CRR019675/CRD039125.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017966/CRR019673/CRD039114.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017966/CRR019673/CRD039115.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017967/CRR019674/CRD039122.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000108/SAMC013103/CRX017967/CRR019674/CRD039123.gz
+
+        sperm_mixed_Hi-C_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041678_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041678_2.fastq.gz
+
+        sperm_mixed_Hi-C_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041681_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041681_2.fastq.gz
+
+        sperm_mixed_Hi-C_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041683_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041683_2.fastq.gz
+
+        sperm_mixed_Hi-C_4:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041685_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041685_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041679_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041679_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041682_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041682_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041684_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041684_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041686_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/Ke/CRA000852/CRR041686_2.fastq.gz
+    library_groups:
+
+        HeLa_and_HT22_mixed_Hi-C:
+            - HeLa_and_HT22_mixed_Hi-C_1
+
+        human_2-cell_Hi-C:
+            - human_2-cell_Hi-C_1
+            - human_2-cell_Hi-C_2
+
+        human_2-cell_mixed_sample:
+            - human_2-cell_mixed_sample_1
+
+        human_6-week_Hi-C:
+            - human_6-week_Hi-C_1
+            - human_6-week_Hi-C_2
+
+        human_8-cell_amanitin_plus_CTCF_mRNA_mixed_sample:
+            - human_8-cell_amanitin_plus_CTCF_mRNA_mixed_sample_1
+            - human_8-cell_amanitin_plus_CTCF_mRNA_mixed_sample_2
+
+        human_8-cell_Hi-C:
+            - human_8-cell_Hi-C_1
+            - human_8-cell_Hi-C_2
+
+        human_8-cell_mixed_sample:
+            - human_8-cell_mixed_sample_1
+
+        human_alpha_amanitin_8-cell_Hi-C:
+            - human_alpha_amanitin_8-cell_Hi-C_1
+            - human_alpha_amanitin_8-cell_Hi-C_2
+
+        human_amanitin-treated_8-cell_mixed_sample:
+            - human_amanitin-treated_8-cell_mixed_sample_1
+
+        human_blastocyst_Hi-C:
+            - human_blastocyst_Hi-C_1
+            - human_blastocyst_Hi-C_2
+            - human_blastocyst_Hi-C_3
+
+        human_morula_Hi-C:
+            - human_morula_Hi-C_1
+            - human_morula_Hi-C_2
+
+        human_morula_mixed_sample:
+            - human_morula_mixed_sample_1
+
+        human_siCTCF_Hi-C:
+            - human_siCTCF_Hi-C_1
+            - human_siCTCF_Hi-C_2
+            - human_siCTCF_Hi-C_3
+
+        human_single_blastocyst_ultra-low-input_Hi-C_replictae1:
+            - human_single_blastocyst_ultra-low-input_Hi-C_replictae1_1
+            - human_single_blastocyst_ultra-low-input_Hi-C_replictae2_2
+
+        human_sperm_Hi-C:
+            - human_sperm_Hi-C_1
+            - human_sperm_Hi-C_2
+            - human_sperm_Hi-C_3
+
+        sperm_mixed_Hi-C:
+            - sperm_mixed_Hi-C_1
+            - sperm_mixed_Hi-C_2
+            - sperm_mixed_Hi-C_3
+            - sperm_mixed_Hi-C_4
+
+    genome:
+        assembly_name: 'hg38'
+        bwa_index_wildcard_path: '../data/genomes/hg38/hg38.fa.gz*'
+        chrom_sizes_path:   '../data/genomes/hg38/hg38.reduced.chrom.sizes'
+
+do_fastqc: False
+
+map:
+    mapping_options: '-c 1'
+
+parse:
+    make_pairsam: False
+    drop_seq: True
+    drop_readid: False
+    keep_unparsed_bams: False
+    parsing_options: '--add-columns mapq --walk-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    balance: true
+    filters:
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+output:
+    dirs:
+        processed_fastqs: 'results_hg38/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_hg38/mapped_parsed_sorted_chunks'
+        fastqc: 'results_hg38/fastqc/'
+        pairs_library: 'results_hg38/pairs_library'
+        coolers_library: 'results_hg38/coolers_library/'
+        coolers_library_group: 'results_hg38/coolers_library_group/'
+        stats_library_group: 'results_hg38/stats_library_group/'

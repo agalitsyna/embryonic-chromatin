@@ -1,0 +1,388 @@
+input:
+    genome:
+        assembly_name: hg38
+        bwa_index_wildcard_path: /net/levsha/share/lab/genomes/hg38/index-bwa/hg38.fa.*
+        chrom_sizes_path: /net/levsha/share/lab/genomes/hg38/hg38.chrom.sizes.reduced
+    library_groups:
+        G2-M_sample_0_hours:
+        - R3_G2-M_sample_0_hours
+        - R2_G2-M_sample_0_hours
+        - R1_G2-M_sample_0_hours
+        asynchronous_control:
+        - R3_asynchronous_control
+        - R2_asynchronous_control
+        - R1_asynchronous_control
+        released_0.5_hours:
+        - R3_released_0.5_hours
+        - R2_released_0.5_hours
+        - R1_released_0.5_hours
+        released_1.5_hours:
+        - R3_released_1.5_hours
+        - R2_released_1.5_hours
+        - R1_released_1.5_hours
+        released_1.75_hours:
+        - R3_released_1.75_hours
+        - R1_released_1.75_hours
+        released_10_hours:
+        - R2_released_10_hours
+        - R1_released_10_hours
+        released_11_hours:
+        - R2_released_11_hours
+        - R1_released_11_hours
+        released_12_hours:
+        - R2_released_12_hours
+        - R1_released_12_hours
+        released_1_hour:
+        - R3_released_1_hour
+        - R2_released_1_hour
+        - R1_released_1_hour
+        released_2.25_hours:
+        - R3_released_2.25_hours
+        - R1_released_2.25_hours
+        released_2.5_hours:
+        - R3_released_2.5_hours
+        - R2_released_2.5_hours
+        - R1_released_2.5_hours
+        released_2.75_hours:
+        - R3_released_2.75_hours
+        - R1_released_2.75_hours
+        released_2_hours:
+        - R3_released_2_hours
+        - R2_released_2_hours
+        - R1_released_2_hours
+        released_3.25_hours:
+        - R3_released_3.25_hours
+        - R1_released_3.25_hours
+        released_3.5_hours:
+        - R3_released_3.5_hours
+        - R2_released_3.5_hours
+        - R1_released_3.5_hours
+        released_3_hours:
+        - R3_released_3_hours
+        - R2_released_3_hours
+        - R1_released_3_hours
+        released_4.5_hours:
+        - R3_released_4.5_hours
+        - R2_released_4.5_hours
+        - R1_released_4.5_hours
+        released_4_hours:
+        - R3_released_4_hours
+        - R2_released_4_hours
+        - R1_released_4_hours
+        released_5_hours:
+        - R3_released_5_hours
+        - R2_released_5_hours
+        - R1_released_5_hours
+        released_6_hours:
+        - R3_released_6_hours
+        - R2_released_6_hours
+        - R1_released_6_hours
+        released_7_hours:
+        - R2_released_7_hours
+        - R1_released_7_hours
+        released_8_hours:
+        - R2_released_8_hours
+        - R1_released_8_hours
+        released_9_hours:
+        - R2_released_9_hours
+        - R1_released_9_hours
+    raw_reads_paths:
+        R1_G2-M_sample_0_hours:
+            lane1:
+            - sra:SRR9609676?start=0&end=10000000000
+        R1_asynchronous_control:
+            lane1:
+            - sra:SRR9609677?start=0&end=10000000000
+        R1_released_0.5_hours:
+            lane1:
+            - sra:SRR9609675?start=0&end=10000000000
+        R1_released_1.5_hours:
+            lane1:
+            - sra:SRR9609673?start=0&end=10000000000
+        R1_released_1.75_hours:
+            lane1:
+            - sra:SRR9609672?start=0&end=10000000000
+        R1_released_10_hours:
+            lane1:
+            - sra:SRR9609657?start=0&end=10000000000
+        R1_released_11_hours:
+            lane1:
+            - sra:SRR9609656?start=0&end=10000000000
+        R1_released_12_hours:
+            lane1:
+            - sra:SRR9609655?start=0&end=10000000000
+        R1_released_1_hour:
+            lane1:
+            - sra:SRR9609674?start=0&end=10000000000
+        R1_released_2.25_hours:
+            lane1:
+            - sra:SRR9609670?start=0&end=10000000000
+        R1_released_2.5_hours:
+            lane1:
+            - sra:SRR9609669?start=0&end=10000000000
+        R1_released_2.75_hours:
+            lane1:
+            - sra:SRR9609668?start=0&end=10000000000
+        R1_released_2_hours:
+            lane1:
+            - sra:SRR9609671?start=0&end=10000000000
+        R1_released_3.25_hours:
+            lane1:
+            - sra:SRR9609666?start=0&end=10000000000
+        R1_released_3.5_hours:
+            lane1:
+            - sra:SRR9609665?start=0&end=10000000000
+        R1_released_3_hours:
+            lane1:
+            - sra:SRR9609667?start=0&end=10000000000
+        R1_released_4.5_hours:
+            lane1:
+            - sra:SRR9609663?start=0&end=10000000000
+        R1_released_4_hours:
+            lane1:
+            - sra:SRR9609664?start=0&end=10000000000
+        R1_released_5_hours:
+            lane1:
+            - sra:SRR9609662?start=0&end=10000000000
+        R1_released_6_hours:
+            lane1:
+            - sra:SRR9609661?start=0&end=10000000000
+        R1_released_7_hours:
+            lane1:
+            - sra:SRR9609660?start=0&end=10000000000
+        R1_released_8_hours:
+            lane1:
+            - sra:SRR9609659?start=0&end=10000000000
+        R1_released_9_hours:
+            lane1:
+            - sra:SRR9609658?start=0&end=10000000000
+        R2_G2-M_sample_0_hours:
+            lane1:
+            - sra:SRR9609695?start=0&end=10000000000
+        R2_asynchronous_control:
+            lane1:
+            - sra:SRR9609696?start=0&end=10000000000
+        R2_released_0.5_hours:
+            lane1:
+            - sra:SRR9609694?start=0&end=10000000000
+        R2_released_1.5_hours:
+            lane1:
+            - sra:SRR9609692?start=0&end=10000000000
+        R2_released_10_hours:
+            lane1:
+            - sra:SRR9609680?start=0&end=10000000000
+        R2_released_11_hours:
+            lane1:
+            - sra:SRR9609679?start=0&end=10000000000
+        R2_released_12_hours:
+            lane1:
+            - sra:SRR9609678?start=0&end=10000000000
+        R2_released_1_hour:
+            lane1:
+            - sra:SRR9609693?start=0&end=10000000000
+        R2_released_2.5_hours:
+            lane1:
+            - sra:SRR9609690?start=0&end=10000000000
+        R2_released_2_hours:
+            lane1:
+            - sra:SRR9609691?start=0&end=10000000000
+        R2_released_3.5_hours:
+            lane1:
+            - sra:SRR9609688?start=0&end=10000000000
+        R2_released_3_hours:
+            lane1:
+            - sra:SRR9609689?start=0&end=10000000000
+        R2_released_4.5_hours:
+            lane1:
+            - sra:SRR9609686?start=0&end=10000000000
+        R2_released_4_hours:
+            lane1:
+            - sra:SRR9609687?start=0&end=10000000000
+        R2_released_5_hours:
+            lane1:
+            - sra:SRR9609685?start=0&end=10000000000
+        R2_released_6_hours:
+            lane1:
+            - sra:SRR9609684?start=0&end=10000000000
+        R2_released_7_hours:
+            lane1:
+            - sra:SRR9609683?start=0&end=10000000000
+        R2_released_8_hours:
+            lane1:
+            - sra:SRR9609682?start=0&end=10000000000
+        R2_released_9_hours:
+            lane1:
+            - sra:SRR9609681?start=0&end=10000000000
+        R3_G2-M_sample_0_hours:
+            lane1:
+            - sra:SRR9609712?start=0&end=10000000000
+        R3_asynchronous_control:
+            lane1:
+            - sra:SRR9609713?start=0&end=10000000000
+        R3_released_0.5_hours:
+            lane1:
+            - sra:SRR9609711?start=0&end=10000000000
+        R3_released_1.5_hours:
+            lane1:
+            - sra:SRR9609709?start=0&end=10000000000
+        R3_released_1.75_hours:
+            lane1:
+            - sra:SRR9609708?start=0&end=10000000000
+        R3_released_1_hour:
+            lane1:
+            - sra:SRR9609710?start=0&end=10000000000
+        R3_released_2.25_hours:
+            lane1:
+            - sra:SRR9609706?start=0&end=10000000000
+        R3_released_2.5_hours:
+            lane1:
+            - sra:SRR9609705?start=0&end=10000000000
+        R3_released_2.75_hours:
+            lane1:
+            - sra:SRR9609704?start=0&end=10000000000
+        R3_released_2_hours:
+            lane1:
+            - sra:SRR9609707?start=0&end=10000000000
+        R3_released_3.25_hours:
+            lane1:
+            - sra:SRR9609702?start=0&end=10000000000
+        R3_released_3.5_hours:
+            lane1:
+            - sra:SRR9609701?start=0&end=10000000000
+        R3_released_3_hours:
+            lane1:
+            - sra:SRR9609703?start=0&end=10000000000
+        R3_released_4.5_hours:
+            lane1:
+            - sra:SRR9609699?start=0&end=10000000000
+        R3_released_4_hours:
+            lane1:
+            - sra:SRR9609700?start=0&end=10000000000
+        R3_released_5_hours:
+            lane1:
+            - sra:SRR9609698?start=0&end=10000000000
+        R3_released_6_hours:
+            lane1:
+            - sra:SRR9609697?start=0&end=10000000000
+    truncate_fastq_reads: 0
+
+
+do_fastqc: False
+
+# Control how reads are mapped to the reference genomes.
+map:
+    # If 'chunksize' is non-zero, each input file gets split into multiple chunks,
+    # each mapped separately. Useful for mapping on clusters with many
+    # relatively weak nodes.
+    # The optimal chunk size is defined by the balance between mapping and merging.
+    # Smaller chunks (~30M) are better for clusters with many weak nodes,
+    # however, having >~10 chunks per run slow down merging.
+    chunksize: 0
+
+    # Specify extra BWA mapping options.
+    mapping_options: ''
+
+    # Specify fastp trim options.
+    #i.e. parameters
+    #--detect_adapter_for_pe -q 15
+    trim_options: ''
+
+    # A more technical option, use a custom script to split fastq files from SRA 
+    # into two files, one per read side. By default it is true, which is
+    # faster (because we can use multi-threaded compression), but less
+    # stable. Set to false if you download files from SRA and bwa complains
+    # about unpaired reads.
+    use_custom_split: true
+
+# Control how read alignments are converted ('parsed') into Hi-C pairs.
+parse:
+    # If 'make_pairsam' is True, parsed Hi-C pairs will store complete
+    # alignment records in the SAM format (the resulting hybrid between the
+    # .pairs and .sam formats is called '.pairsam'). Such files can be useful for
+    # thorough investigation of Hi-C data. Downstream of parsing, pairsams
+    # are split into .pairs and .bam, and .bam alignments are tagged with
+    # Hi-C related information. 'make_pairsam' roughly doubles the storage
+    # and I/O requirements and should be used only when absolutely needed.
+    # NOTE: when 'make_pairsam' is False, the initial output of parsing is still
+    # called '.pairsam' despite missing SAM alignments, for technical reasons.
+    make_pairsam: False
+
+    # When 'make_pairsam' is True, enabling 'drop_seq' erases sequences and
+    # Phred scores from the SAM alignments in .pairsam and .bam output files.
+    # Enable to make lightweight .pairsam/.bam output.
+    # NOTE: when 'make_pairsam' is False, 'drop_seq' is ignored.
+    drop_seq: False
+
+    # Enable 'drop_readid' to drop readID from .pairs files to create
+    # lightweight .pairs files
+    # NOTE: does not affect alignment records in the .pairsam files and
+    # subsequently .bam files after .apirsam splitting.
+    drop_readid: True
+
+    # When 'keep_unparsed_bams' is True, distiller preserves the _immediate_
+    # output of bwa in a .bam format. Could be used as a faster alternative
+    # to 'make_pairsam' when alignments are needed, but tagging them with Hi-C
+    # related information is not necessary.
+    keep_unparsed_bams: False
+
+    # Pass extra options to pairtools parse, on top of the ones specified by
+    # flags 'make_pairsam', 'drop_readid', 'drop_seq'. The default value
+    # enables storing MAPQ scores in the .pairsam/.pairs output, which are
+    # used later for filtering/binning. The default walks-policy is 'mask'
+    # which masks complex walks in long reads.
+    parsing_options: '--add-columns mapq --walks-policy all'
+
+# Control how PCR/optical duplicates are detected in the data.
+dedup:
+    # PCR/optical duplicates are detected as Hi-C pairs with matching locations
+    # on both sides. 'max_mismatch_bp' controls the maximal allowed mismatch in
+    # mapped locations on either side for two pairs to be still considered as
+    # duplicates.
+    max_mismatch_bp: 1
+
+# Control how Hi-C pairs are binned into contact maps, stored in .cool files.
+bin:
+    # Specify which resolutions should be included in the multi-resolution .cool file.
+    # The lowest (base) resolution _must_ be the common denominator of all other
+    # resolutions.
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    # Specify if the multi-resolution .cool output files should be balanced.
+    balance: true
+
+    # Pass additional parameters to cooler balance:
+    # balance_options: ''
+
+    # Specify additional filters applied to pairs during binning.
+    # Multiple filters are allowed; for each filter, all pairs satisfying the
+    # given filter expression will be binned into a separate cooler.
+    # Filters are specified using the following syntax:
+    # {filter_name}: '{a valid Python expression}'
+    filters:
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+########################################
+# folder structure for storing results
+########################################
+output:
+    dirs:
+        processed_fastqs: 'results_Abramo2019/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_Abramo2019/mapped_parsed_sorted_chunks'
+        fastqc: 'results_Abramo2019/fastqc/'
+        pairs_library: 'results_Abramo2019/pairs_library'
+        coolers_library: 'results_Abramo2019/coolers_library/'
+        coolers_library_group: 'results_Abramo2019/coolers_library_group/'
+        stats_library_group: 'results_Abramo2019/stats_library_group/'

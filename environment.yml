@@ -1,0 +1,41 @@
+name: embryonic-chromatin
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cython
+# Preparing the genome:
+  - bwa
+# Visualization tools:
+  - matplotlib
+  - seaborn
+  - datashader
+  - proplot
+# Basic data manipulation:
+  - pandas
+  - numpy
+# Statistics and modelling:
+  - scipy
+  - scikit-learn
+  - statsmodels
+# Running jupyter notebooks:
+  - jupyterlab
+  - ipykernel
+# Various biological data manipulation:
+  - bedtools
+# Pip/git/github dependencies:
+  - pip
+  - git
+  - pip:
+      # Managing various biological data:
+      - bioframe
+      - cooler
+      - cooltools
+      - pybbi
+      # - fontanka
+      # Managing the genomes:
+      - genomepy
+      # Downloading the processed data:
+      - osfclient

@@ -1,3 +1,9 @@
+data/coolers
+data/genomes/*/*.fa*
+data/genomes/*/*.gtf*
+.osfcli.config
+*/.osfcli.config
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

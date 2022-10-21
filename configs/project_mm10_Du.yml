@@ -1,0 +1,321 @@
+input:
+    raw_reads_paths:
+
+        500_mESCs_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203841_Hi-C_500_mESCs_rep1/SRR3680551_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203841_Hi-C_500_mESCs_rep1/SRR3680551_pass_2.fastq.gz
+
+        500_mESCs_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203842_Hi-C_500_mESCs_rep2/SRR3680553_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203842_Hi-C_500_mESCs_rep2/SRR3680553_pass_2.fastq.gz
+
+        8-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203837_Hi-C_8-cell_rep1/SRR5133160_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203837_Hi-C_8-cell_rep1/SRR5133160_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203837_Hi-C_8-cell_rep1/SRR3680546_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203837_Hi-C_8-cell_rep1/SRR3680546_pass_2.fastq.gz
+
+        8-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203838_Hi-C_8-cell_rep2/SRR5133161_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203838_Hi-C_8-cell_rep2/SRR5133161_pass_2.fastq.gz
+
+        8-cell_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434084_Hi-C_8-cell_rep3/SRR5122736_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434084_Hi-C_8-cell_rep3/SRR5122736_pass_2.fastq.gz
+
+        ICM_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203839_Hi-C_ICM_rep1/SRR3680549_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203839_Hi-C_ICM_rep1/SRR3680549_pass_2.fastq.gz
+
+        ICM_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203840_Hi-C_ICM_rep2/SRR3680550_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203840_Hi-C_ICM_rep2/SRR3680550_pass_2.fastq.gz
+
+        ICM_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434085_Hi-C_ICM_rep3/SRR5122737_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434085_Hi-C_ICM_rep3/SRR5122737_pass_2.fastq.gz
+
+        MII_oocytes_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203829_Hi-C_MII_oocytes_rep1/SRR3680534_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203829_Hi-C_MII_oocytes_rep1/SRR3680534_pass_2.fastq.gz
+
+        MII_oocytes_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203830_Hi-C_MII_oocytes_rep2/SRR3680535_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203830_Hi-C_MII_oocytes_rep2/SRR3680535_pass_2.fastq.gz
+
+        PN3_zygote_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434078_Hi-C_PN3_zygote_rep1/SRR5122730_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434078_Hi-C_PN3_zygote_rep1/SRR5122730_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434078_Hi-C_PN3_zygote_rep1/SRR5122729_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434078_Hi-C_PN3_zygote_rep1/SRR5122729_pass_2.fastq.gz
+
+        PN3_zygote_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2700110_Hi-C_PN3_zygote_rep2/SRR5817930_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2700110_Hi-C_PN3_zygote_rep2/SRR5817930_pass_2.fastq.gz
+
+        PN5_zygote_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203831_Hi-C_PN5_zygote_rep1/SRR3680536_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203831_Hi-C_PN5_zygote_rep1/SRR3680536_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203831_Hi-C_PN5_zygote_rep1/SRR3680537_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203831_Hi-C_PN5_zygote_rep1/SRR3680537_pass_2.fastq.gz
+
+        PN5_zygote_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203832_Hi-C_PN5_zygote_rep2/SRR3680538_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203832_Hi-C_PN5_zygote_rep2/SRR3680538_pass_2.fastq.gz
+
+        PN5_zygote_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434079_Hi-C_PN5_zygote_rep3/SRR5122731_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434079_Hi-C_PN5_zygote_rep3/SRR5122731_pass_2.fastq.gz
+
+        PN5_zygote_4:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434080_Hi-C_PN5_zygote_rep4/SRR5122732_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434080_Hi-C_PN5_zygote_rep4/SRR5122732_pass_2.fastq.gz
+
+        alpha-amanitin_20h_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434091_Hi-C_alpha-amanitin_20h_rep1/SRR5122743_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434091_Hi-C_alpha-amanitin_20h_rep1/SRR5122743_pass_2.fastq.gz
+
+        alpha-amanitin_20h_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434092_Hi-C_alpha-amanitin_20h_rep2/SRR5341962_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434092_Hi-C_alpha-amanitin_20h_rep2/SRR5341962_pass_2.fastq.gz
+
+        alpha-amanitin_45h_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434094_Hi-C_alpha-amanitin_45h_rep1/SRR5122746_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434094_Hi-C_alpha-amanitin_45h_rep1/SRR5122746_pass_2.fastq.gz
+
+        alpha-amanitin_45h_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434095_Hi-C_alpha-amanitin_45h_rep2/SRR5341964_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434095_Hi-C_alpha-amanitin_45h_rep2/SRR5341964_pass_2.fastq.gz
+
+        cortex_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434089_Hi-C_cortex_rep1/SRR5122741_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434089_Hi-C_cortex_rep1/SRR5122741_pass_2.fastq.gz
+
+        cortex_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434090_Hi-C_cortex_rep2/SRR5122742_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434090_Hi-C_cortex_rep2/SRR5122742_pass_2.fastq.gz
+
+        early_2-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203833_Hi-C_early_2-cell_rep1/SRR5133159_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203833_Hi-C_early_2-cell_rep1/SRR5133159_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203833_Hi-C_early_2-cell_rep1/SRR3680540_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203833_Hi-C_early_2-cell_rep1/SRR3680540_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203833_Hi-C_early_2-cell_rep1/SRR3680539_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203833_Hi-C_early_2-cell_rep1/SRR3680539_pass_2.fastq.gz
+
+        early_2-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203834_Hi-C_early_2-cell_rep2/SRR3680541_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203834_Hi-C_early_2-cell_rep2/SRR3680541_pass_2.fastq.gz
+
+        early_2-cell_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434081_Hi-C_early_2-cell_rep3/SRR5122733_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434081_Hi-C_early_2-cell_rep3/SRR5122733_pass_2.fastq.gz
+
+        invitro_8-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434096_Hi-C_invitro_8-cell_rep1/SRR5122749_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434096_Hi-C_invitro_8-cell_rep1/SRR5122749_pass_2.fastq.gz
+
+        invitro_8-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2700112_Hi-C_invitro_8-cell_rep2/SRR5817932_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2700112_Hi-C_invitro_8-cell_rep2/SRR5817932_pass_2.fastq.gz
+
+        invitro_late_2-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434093_Hi-C_invitro_late_2-cell_rep1/SRR5341963_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434093_Hi-C_invitro_late_2-cell_rep1/SRR5341963_pass_2.fastq.gz
+
+        invitro_late_2-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2700111_Hi-C_invitro_late_2-cell_rep2/SRR5817931_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2700111_Hi-C_invitro_late_2-cell_rep2/SRR5817931_pass_2.fastq.gz
+
+        late_2-cell_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203835_Hi-C_late_2-cell_rep1/SRR3680543_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203835_Hi-C_late_2-cell_rep1/SRR3680543_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203835_Hi-C_late_2-cell_rep1/SRR3680542_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203835_Hi-C_late_2-cell_rep1/SRR3680542_pass_2.fastq.gz
+
+        late_2-cell_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203836_Hi-C_late_2-cell_rep2/SRR3680545_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203836_Hi-C_late_2-cell_rep2/SRR3680545_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203836_Hi-C_late_2-cell_rep2/SRR3680544_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2203836_Hi-C_late_2-cell_rep2/SRR3680544_pass_2.fastq.gz
+
+        late_2-cell_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434082_Hi-C_late_2-cell_rep3/SRR5122734_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434082_Hi-C_late_2-cell_rep3/SRR5122734_pass_2.fastq.gz
+
+        late_2-cell_4:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434083_Hi-C_late_2-cell_rep4/SRR5122735_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434083_Hi-C_late_2-cell_rep4/SRR5122735_pass_2.fastq.gz
+
+        sperm_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434086_Hi-C_sperm_rep1/SRR5122738_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434086_Hi-C_sperm_rep1/SRR5122738_pass_2.fastq.gz
+
+        sperm_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434087_Hi-C_sperm_rep2/SRR5122739_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434087_Hi-C_sperm_rep2/SRR5122739_pass_2.fastq.gz
+
+        sperm_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434088_Hi-C_sperm_rep3/SRR5122740_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_MM9/FASTQ/GSE82185_SRA/Supp_GSM2434088_Hi-C_sperm_rep3/SRR5122740_pass_2.fastq.gz
+    library_groups:
+
+        500_mESCs:
+            - 500_mESCs_1
+            - 500_mESCs_2
+
+        8-cell:
+            - 8-cell_1
+            - 8-cell_2
+            - 8-cell_3
+
+        ICM:
+            - ICM_1
+            - ICM_2
+            - ICM_3
+
+        MII_oocytes:
+            - MII_oocytes_1
+            - MII_oocytes_2
+
+        PN3_zygote:
+            - PN3_zygote_1
+            - PN3_zygote_2
+
+        PN5_zygote:
+            - PN5_zygote_1
+            - PN5_zygote_2
+            - PN5_zygote_3
+            - PN5_zygote_4
+
+        alpha-amanitin_20h:
+            - alpha-amanitin_20h_1
+            - alpha-amanitin_20h_2
+
+        alpha-amanitin_45h:
+            - alpha-amanitin_45h_1
+            - alpha-amanitin_45h_2
+
+        cortex:
+            - cortex_1
+            - cortex_2
+
+        early_2-cell:
+            - early_2-cell_1
+            - early_2-cell_2
+            - early_2-cell_3
+
+        invitro_8-cell:
+            - invitro_8-cell_1
+            - invitro_8-cell_2
+
+        invitro_late_2-cell:
+            - invitro_late_2-cell_1
+            - invitro_late_2-cell_2
+
+        late_2-cell:
+            - late_2-cell_1
+            - late_2-cell_2
+            - late_2-cell_3
+            - late_2-cell_4
+
+        sperm:
+            - sperm_1
+            - sperm_2
+            - sperm_3
+
+    genome:
+        assembly_name: 'mm10'
+        bwa_index_wildcard_path: '../data/genomes/mm10/mm10.fa.gz*'
+        chrom_sizes_path:   '../data/genomes/mm10/mm10.reduced.chrom.sizes'
+
+do_fastqc: False
+
+map:
+    chunksize: 0
+    mapping_options: '-c 1'
+
+parse:
+    make_pairsam: False
+    drop_seq: True
+    drop_readid: False
+    keep_unparsed_bams: False
+    parsing_options: '--add-columns mapq --walk-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 25000
+        - 10000
+        - 5000
+        - 2000
+        - 1000
+    balance: true
+
+    filters:
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+output:
+    dirs:
+        processed_fastqs: 'results_mm10/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_mm10/mapped_parsed_sorted_chunks'
+        fastqc: 'results_mm10/fastqc/'
+        pairs_library: 'results_mm10/pairs_library'
+        coolers_library: 'results_mm10/coolers_library/'
+        coolers_library_group: 'results_mm10/coolers_library_group/'
+        stats_library_group: 'results_mm10/stats_library_group/'
+

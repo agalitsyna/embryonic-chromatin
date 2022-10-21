@@ -1,0 +1,619 @@
+do_fastqc: False
+do_stats: True
+
+input:
+    raw_reads_paths:
+        embryos_2.3hpf_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814012_2_3hpf_Hi-C__HiSeq_2500_/SRR6176859_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814012_2_3hpf_Hi-C__HiSeq_2500_/SRR6176859_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814012_2_3hpf_Hi-C__HiSeq_2500_/SRR6176860_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814012_2_3hpf_Hi-C__HiSeq_2500_/SRR6176860_pass_2.fastq.gz
+        embryos_2.3hpf_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814013_2_3hpf_Hi-C__Nextseq_500_/SRR6176861_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814013_2_3hpf_Hi-C__Nextseq_500_/SRR6176861_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814013_2_3hpf_Hi-C__Nextseq_500_/SRR6176862_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814013_2_3hpf_Hi-C__Nextseq_500_/SRR6176862_pass_2.fastq.gz
+        embryos_24hpf_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176893_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176893_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176894_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176894_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176895_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176895_pass_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176896_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814019_24hpf_Hi-C_rep1__HiSeq_2500_/SRR6176896_pass_2.fastq.gz
+        embryos_24hpf_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176897_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176897_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176898_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176898_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176899_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176899_pass_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176900_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814020_24hpf_Hi-C_rep2__HiSeq_2500_/SRR6176900_pass_2.fastq.gz
+        embryos_24hpf_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814021_24hpf_Hi-C__Nextseq_500_/SRR6176901_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814021_24hpf_Hi-C__Nextseq_500_/SRR6176901_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814021_24hpf_Hi-C__Nextseq_500_/SRR6176902_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814021_24hpf_Hi-C__Nextseq_500_/SRR6176902_pass_2.fastq.gz
+        embryos_4hpf_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176863_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176863_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176864_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176864_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176865_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176865_pass_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176866_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176866_pass_2.fastq.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176867_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176867_pass_2.fastq.gz
+            lane6:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176868_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814014_4hpf_Hi-C__HiSeq_2500_/SRR6176868_pass_2.fastq.gz
+        embryos_4hpf_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814015_4hpf_Hi-C__Nextseq_500_/SRR6176869_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814015_4hpf_Hi-C__Nextseq_500_/SRR6176869_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814015_4hpf_Hi-C__Nextseq_500_/SRR6176870_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814015_4hpf_Hi-C__Nextseq_500_/SRR6176870_pass_2.fastq.gz
+        embryos_8hpf_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176871_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176871_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176872_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176872_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176873_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176873_pass_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176874_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814016_8hpf_Hi-C__Nextseq_500_/SRR6176874_pass_2.fastq.gz
+        embryos_8hpf_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176875_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176875_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176876_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176876_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176877_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176877_pass_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176878_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176878_pass_2.fastq.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176879_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176879_pass_2.fastq.gz
+            lane6:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176880_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176880_pass_2.fastq.gz
+            lane7:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176881_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176881_pass_2.fastq.gz
+            lane8:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176882_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176882_pass_2.fastq.gz
+            lane9:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176883_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814017_8hpf_Hi-C_rep1__HiSeq_2500_/SRR6176883_pass_2.fastq.gz
+        embryos_8hpf_3:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176884_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176884_pass_2.fastq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176885_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176885_pass_2.fastq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176886_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176886_pass_2.fastq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176887_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176887_pass_2.fastq.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176888_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176888_pass_2.fastq.gz
+            lane6:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176889_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176889_pass_2.fastq.gz
+            lane7:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176890_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176890_pass_2.fastq.gz
+            lane8:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176891_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176891_pass_2.fastq.gz
+            lane9:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176892_pass_1.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/GSE105013_SRA/Supp_GSM2814018_8hpf_Hi-C_rep2__HiSeq_2500_/SRR6176892_pass_2.fastq.gz
+        MZnanog_2.75_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan1_TKD180901783_HLKKVCCXY_L2_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan1_TKD180901783_HLKKVCCXY_L2_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan1_TKD180901783_HNGF7CCXY_L6_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan1_TKD180901783_HNGF7CCXY_L6_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan1_TKD180901783_HNGF7CCXY_L7_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan1_TKD180901783_HNGF7CCXY_L7_2.clean.fq.gz
+        MZnanog_2.75_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HLKKVCCXY_L2_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HLKKVCCXY_L2_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2TCCXY_L7_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2TCCXY_L7_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2TCCXY_L8_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2TCCXY_L8_2.clean.fq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2TCCXY_L5_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2TCCXY_L5_2.clean.fq.gz
+            lane5:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2CCCXY_L1_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/nan2_TKD180901784_HNY2CCCXY_L1_2.clean.fq.gz
+        MZnanog_5.3_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/nan20_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/nan20_2.clean.fq.gz
+        MZnanog_5.3_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/nan21_22_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/nan21_22_2.clean.fq.gz
+        MZsox19b_5.3_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/sox19_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/sox19_2.clean.fq.gz
+        MZsox19b_5.3_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HNY2CCCXY_L1_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HNY2CCCXY_L1_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HNY2TCCXY_L7_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HNY2TCCXY_L7_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HNY2TCCXY_L8_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HNY2TCCXY_L8_2.clean.fq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HTHVVCCXY_L8_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/sox18_TKD180901787_HTHVVCCXY_L8_2.clean.fq.gz
+        MZspg_2.75_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HLKKVCCXY_L2_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HLKKVCCXY_L2_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HNY2TCCXY_L7_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HNY2TCCXY_L7_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HNY2TCCXY_L8_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HNY2TCCXY_L8_2.clean.fq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HNY2CCCXY_L1_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg1_TKD180901785_HNY2CCCXY_L1_2.clean.fq.gz
+        MZspg_2.75_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HLKKVCCXY_L2_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HLKKVCCXY_L2_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HNY2TCCXY_L8_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HNY2TCCXY_L8_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HNY2TCCXY_L7_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HNY2TCCXY_L7_2.clean.fq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HNY2CCCXY_L1_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/spg2_TKD180901786_HNY2CCCXY_L1_2.clean.fq.gz
+        MZspg_5.3_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/SPG7-9_S47_R1_001.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/SPG7-9_S47_R2_001.fastq.gz
+        MZspg_5.3_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/SPG8_S27_R1_001.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/SPG8_S27_R2_001.fastq.gz
+        Wild-Type_2.75_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HLKKVCCXY_L2_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HLKKVCCXY_L2_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HNYK3CCXY_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HNYK3CCXY_L4_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HNYK3CCXY_L5_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HNYK3CCXY_L5_2.clean.fq.gz
+            lane4:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HNYK3CCXY_L6_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt1_TKD180901781_HNYK3CCXY_L6_2.clean.fq.gz
+        Wild-Type_2.75_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt2_TKD180901782_HLKKVCCXY_L2_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt2_TKD180901782_HLKKVCCXY_L2_2.clean.fq.gz
+            lane2:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt2_TKD180901782_HNGF7CCXY_L6_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt2_TKD180901782_HNGF7CCXY_L6_2.clean.fq.gz
+            lane3:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt2_TKD180901782_HNGF7CCXY_L7_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB2/wt2_TKD180901782_HNGF7CCXY_L7_2.clean.fq.gz
+        Wild-Type_5.3_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/WT14_S25_R1_001.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/WT14_S25_R2_001.fastq.gz
+        Wild-Type_5.3_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/WT15_S26_R1_001.fastq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB1/WT15_S26_R2_001.fastq.gz
+        sperm_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/SA_FKDL190761806-1a_HNT27DSXX_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/SA_FKDL190761806-1a_HNT27DSXX_L4_2.clean.fq.gz
+        sperm_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/SB_FKDL190761807-1a_HNT27DSXX_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/SB_FKDL190761807-1a_HNT27DSXX_L4_2.clean.fq.gz
+        Wild-Type_11_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y11A_FKDL190761808-1a_HNT27DSXX_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y11A_FKDL190761808-1a_HNT27DSXX_L4_2.clean.fq.gz
+        Wild-Type_11_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y11B_FKDL190761809-1a_HNT27DSXX_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y11B_FKDL190761809-1a_HNT27DSXX_L4_2.clean.fq.gz
+        Wild-Type_25_1:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y25A_FKDL190761810-1a_HNT27DSXX_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y25A_FKDL190761810-1a_HNT27DSXX_L4_2.clean.fq.gz
+        Wild-Type_25_2:
+            lane1:
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y25B_FKDL190761811-1a_HNT27DSXX_L4_1.clean.fq.gz
+                - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB3/Y25B_FKDL190761811-1a_HNT27DSXX_L4_2.clean.fq.gz
+        PS1:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/PS1_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/PS1_R2_001.fastq.gz
+            lane2:
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/PS1_S5_R1_001.fastq.gz
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/PS1_S5_R2_001.fastq.gz
+        PS2:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/PS2_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/PS2_R2_001.fastq.gz
+            lane2:
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/PS2_S6_R1_001.fastq.gz
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/PS2_S6_R2_001.fastq.gz
+        SN1:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/SN1_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/SN1_R2_001.fastq.gz
+            lane2:
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/SN1_S7_R1_001.fastq.gz
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/SN1_S7_R2_001.fastq.gz
+        SN2:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/SN2_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/SN2_R2_001.fastq.gz
+        NP1:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/NP1_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/NP1_R2_001.fastq.gz
+        NP2:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/NP2_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/NP2_R2_001.fastq.gz
+        TR1:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/TR1_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/TR1_R2_001.fastq.gz
+            lane2:
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/TR1_S8_R1_001.fastq.gz
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/TR1_S8_R2_001.fastq.gz
+        TR2:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/TR2_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/TR2_R2_001.fastq.gz
+        WT1:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/WT1_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/WT1_R2_001.fastq.gz
+            lane2:
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/WT1_S4_R1_001.fastq.gz
+                    - /home/agalicina/DANIO/HIC/DATA_DANRER10/FASTQ/LIB4/WT1_S4_R2_001.fastq.gz
+        WT2:
+            lane1:
+                    - /net/levsha/share/incoming_zubr/WT2_R1_001.fastq.gz
+                    - /net/levsha/share/incoming_zubr/WT2_R2_001.fastq.gz
+        Wike2021_WT_ZF_Embryos_2.25hpf_ED:
+            lane1:
+                - sra:SRR12044310?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044311?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044312?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_2.25hpf_LD:
+            lane1:
+                - sra:SRR12044282?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044283?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044284?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044285?start=0&end=100000000000
+            lane5:
+                - sra:SRR12044286?start=0&end=100000000000
+            lane6:
+                - sra:SRR12044287?start=0&end=100000000000
+            lane7:
+                - sra:SRR12044288?start=0&end=100000000000
+            lane8:
+                - sra:SRR12044289?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_24hpf:
+            lane1:
+                - sra:SRR12044304?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044305?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044306?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044307?start=0&end=100000000000
+            lane5:
+                - sra:SRR12044308?start=0&end=100000000000
+            lane6:
+                - sra:SRR12044309?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_4hpf:
+            lane1:
+                - sra:SRR12044290?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044291?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044292?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044293?start=0&end=100000000000
+            lane5:
+                - sra:SRR12044294?start=0&end=100000000000
+            lane6:
+                - sra:SRR12044295?start=0&end=100000000000
+            lane7:
+                - sra:SRR12044296?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_4hpf_DMSO:
+            lane1:
+                - sra:SRR12044315?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044316?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044317?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044318?start=0&end=100000000000
+            lane5:
+                - sra:SRR12044319?start=0&end=100000000000
+            lane6:
+                - sra:SRR12044320?start=0&end=100000000000
+            lane7:
+                - sra:SRR12044321?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_4hpf_FLAV:
+            lane1:
+                - sra:SRR12044322?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044323?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044324?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044325?start=0&end=100000000000
+            lane5:
+                - sra:SRR12044326?start=0&end=100000000000
+            lane6:
+                - sra:SRR12044327?start=0&end=100000000000
+            lane7:
+                - sra:SRR12044328?start=0&end=100000000000
+            lane8:
+                - sra:SRR12044329?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_4hpf_SGC:
+            lane1:
+                - sra:SRR12044330?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044331?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044332?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044333?start=0&end=100000000000
+        Wike2021_WT_ZF_Embryos_5.3hpf:
+            lane1:
+                - sra:SRR12044297?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044298?start=0&end=100000000000
+            lane3:
+                - sra:SRR12044299?start=0&end=100000000000
+            lane4:
+                - sra:SRR12044300?start=0&end=100000000000
+            lane5:
+                - sra:SRR12044301?start=0&end=100000000000
+            lane6:
+                - sra:SRR12044302?start=0&end=100000000000
+            lane7:
+                - sra:SRR12044303?start=0&end=100000000000
+        Wike2021_WT_ZF_Sperm:
+            lane1:
+                - sra:SRR12044313?start=0&end=100000000000
+            lane2:
+                - sra:SRR12044314?start=0&end=100000000000
+
+
+    library_groups:
+        MZspg_2.75:
+            - MZspg_2.75_1
+            - MZspg_2.75_2
+        embryos_4hpf:
+            - embryos_4hpf_1
+            - embryos_4hpf_2
+        embryos_2.3hpf:
+            - embryos_2.3hpf_1
+            - embryos_2.3hpf_2
+        MZnanog_2.75:
+            - MZnanog_2.75_1
+            - MZnanog_2.75_2
+        MZnanog_5.3:
+            - MZnanog_5.3_1
+            - MZnanog_5.3_2
+        Wild-Type_2.75:
+            - Wild-Type_2.75_1
+            - Wild-Type_2.75_2
+        Wild-Type_5.3:
+            - Wild-Type_5.3_1
+            - Wild-Type_5.3_2
+        Wild-Type_11:
+            - Wild-Type_11_1
+            - Wild-Type_11_2
+        Wild-Type_25:
+            - Wild-Type_25_1
+            - Wild-Type_25_2
+        embryos_8hpf:
+            - embryos_8hpf_2
+            - embryos_8hpf_3
+            - embryos_8hpf_1
+        embryos_24hpf:
+            - embryos_24hpf_1
+            - embryos_24hpf_2
+            - embryos_24hpf_3
+        MZspg_5.3:
+            - MZspg_5.3_1
+            - MZspg_5.3_2
+        MZsox19b_5.3:
+            - MZsox19b_5.3_1
+            - MZsox19b_5.3_2
+        PS:
+            - PS1
+            - PS2
+        NP:
+            - NP1
+            - NP2
+        SN:
+            - SN1
+            - SN2
+        TR:
+            - TR1
+            - TR2
+        WT:
+            - WT1
+            - WT2
+        sperm:
+            - sperm_1
+            - sperm_2
+    all:
+        - Wild-Type_2.75_1
+        - Wild-Type_2.75_2
+        - MZspg_2.75_1
+        - MZspg_2.75_2
+        - MZnanog_2.75_1
+        - MZnanog_2.75_2
+        - embryos_2.3hpf_1
+        - embryos_2.3hpf_2
+        - embryos_4hpf_1
+        - embryos_4hpf_2
+        - MZnanog_5.3_1
+        - MZnanog_5.3_2
+        - MZspg_5.3_1
+        - MZspg_5.3_2
+        - MZsox19b_5.3_1
+        - MZsox19b_5.3_2
+        - PS1
+        - PS2
+        - NP1
+        - NP2
+        - SN1
+        - SN2
+        - TR1
+        - TR2
+        - WT1
+        - WT2
+        - Wild-Type_5.3_1
+        - Wild-Type_5.3_2
+        - embryos_8hpf_2
+        - embryos_8hpf_3
+        - embryos_8hpf_1
+        - Wild-Type_11_1
+        - Wild-Type_11_2
+        - embryos_24hpf_1
+        - embryos_24hpf_2
+        - embryos_24hpf_3
+        - Wild-Type_25_1
+        - Wild-Type_25_2
+        - sperm_1
+        - sperm_2
+
+    truncate_fastq_ready: 0
+
+    genome:
+        assembly_name: 'danrer11-reduced'
+        bwa_index_wildcard_path: '../data/genomes/danRer11.reduced.fa.*'
+        chrom_sizes_path: '../data/genomes/danRer11.reduced.chromsizes'
+
+do_fastqc: False
+
+map:
+    chunksize: 100000000
+    
+    mapping_options: ''
+
+parse:
+    make_pairsam: False
+    drop_seq: True
+    drop_readid: False
+    keep_unparsed_bams: False
+    parsing_options: '--add-columns mapq --walk-policy all'
+
+dedup:
+    max_mismatch_bp: 1
+
+bin:
+    resolutions:
+        - 10000000
+        - 5000000
+        - 2500000
+        - 1000000
+        - 500000
+        - 250000
+        - 100000
+        - 50000
+        - 40000
+        - 30000
+        - 25000
+        - 20000
+        - 15000
+        - 10000
+        - 8000
+        - 5000
+        - 3000
+        - 2000
+        - 1000
+    balance: true
+
+    filters: 
+        no_filter: ''
+        mapq_30: '(mapq1>=30) and (mapq2>=30)'
+
+output:
+    dirs:
+        processed_fastqs: 'results_danrer11/processed_fastqs/'
+        mapped_parsed_sorted_chunks: 'results_danrer11/mapped_parsed_sorted_chunks'
+        fastqc: 'results_danrer11/fastqc/'
+        pairs_library: 'results_danrer11/pairs_library'
+        coolers_library: 'results_danrer11/coolers_library/'
+        coolers_library_group: 'results_danrer11/coolers_library_group/'
+        stats_library_group: 'results_danrer11/stats_library_group/'
