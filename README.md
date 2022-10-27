@@ -159,3 +159,27 @@ cp distiller-nf/results_danrer11_reduced/cooler_library_group/* data/coolers/dan
 For all other config files, repeat the same. 
 
 TODO: add instructions on how to download raw fastqs
+
+### 3. Scaling plots
+
+Scaling plots are based on 1 Kb coolers. The processing is done in the notebook: 
+
+```
+./notebooks/003_scalings.ipynb
+```
+
+### 4. Calculate insulation and boundaries
+
+Calculate insualtion at 5 Kb resolution and compare insulation at boundaries:
+
+```
+./notebooks/004_insulation_and_boundaries.ipynb
+```
+
+### 5. Calculate compartments
+
+Calculate compartments at 25 Kb resolution and compartment strength: 
+
+```
+./notebooks/005_compartments.ipynb
+```

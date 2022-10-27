@@ -25,14 +25,16 @@ dependencies:
   - ipykernel
 # Various biological data manipulation:
   - bedtools
+  - ucsc-bedgraphtobigwig
+  - ucsc-liftover
 # Pip/git/github dependencies:
   - pip
   - git
   - pip:
       # Managing various biological data:
-      - bioframe
+      - git+https://github.com/open2c/bioframe.git # Version above 0.3.3 with supported paths to bedgraphtobigwig
       - cooler
-      - cooltools
+      - cooltools>=0.5.2
       - pybbi
       # - fontanka
       # Managing the genomes:
