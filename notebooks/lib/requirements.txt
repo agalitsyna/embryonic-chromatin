@@ -1,0 +1,15 @@
+tqdm
+numpy>=2.3.5
+pandas>=2.3.3
+scipy>=1.16.3
+statsmodels>=0.14.5
+matplotlib>=3.10.8
+seaborn>=0.13.2	
+datashader>=0.18.2
+ultraplot>=1.66.0
+scikit-learn
+cooler>=0.10.4
+cooltools>=0.7.1
+bioframe>=0.8.0
+fontanka>=0.2
+pybbi>=0.4.2
